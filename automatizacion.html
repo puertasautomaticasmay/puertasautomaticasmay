@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="icon" href="img/favicon.png" sizes="16x16" type="image/png">
+  <title>Puertas Automaticas May | Automatizaciones</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/nivoslider.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container header-top">
+    <div class="col-md-6 col-md-offset-6 text-right">
+       <i class="fa fa-phone" aria-hidden="true"></i> <span><a href="tel:+523316154571">(33) 1615.4571</a></span> <br> <strong>¡Cotiza sin comprimiso!</strong>
+    </div>
+  </div>
+  <div class="container container-navbar">
+    <div class="row">
+      <header class="navbar navbar-default" role="navigation" id='navbar-header' current="servicios">
+      <div class="container">
+    <div class="navbar-header">
+        <button type="button" id='navbar-toggle' class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Menu</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          <div class="logo">
+            <img src="img/logotipo.png" alt="" />
+          </div>
+        </a>
+    </div>
+    <nav id='navbar-collapse' class="navbar-collapse collapse">
+        <ul id='nav-items' class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">¿Quienes Somos?</a></li>
+            <li><a href="servicios.html" class="dropdown-toggle" data-toggle="dropdown">Servicios</a>
+                <ul class="dropdown-menu">
+                    <li><a href="automatizacion.html">Automatización</a></li>
+                    <li><a href="cctv.html">CCTV</a></li>
+                    <li><a href="cercas-electricas.html">Cercas</a></li>
+                </ul>
+            </li>
+           <li><a href="galeria" class="dropdown-toggle" data-toggle="dropdown">Galería</a>
+                <ul class="dropdown-menu">
+                    <!--<li><a href="imagenes">Imagenes</a></li>-->
+                    <li><a href="videos.html">Videos</a></li>
+                </ul>
+            </li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+</div>
+
+      </header>
+    </div>
+  </div>
+  <div class="container content bg-gear">
+    <div class="row">
+      <div class="col-md-11 centered">
+        <div class="col-md-6">
+          <div class="sectiontitle">
+    				<h4>Automatización</h4>
+    			</div>
+    			<p>
+    				Ya sea para una mejor eficiencia o por comodidad te ofrecemos un servicio de automatización para tu cochera o portón utilizando la mejor calidad de motores o pistones según tus necesidades.
+    			</p>
+          <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#estetica">Estética</a></li>
+            <li><a data-toggle="tab" href="#espacio">Espacio</a></li>
+            <li><a data-toggle="tab" href="#garantia">Garantía</a></li>
+          </ul>
+          <div class="tab-content">
+            <div id="estetica" class="tab-pane fade in active">
+              <p> Realizamos la instalación manteniendo el equipo y conexiones lo más discreto posible, conservando siempre la calidad y manteniendo un óptimo funcionamiento. </p>
+    			  </div>
+            <div id="espacio" class="tab-pane fade">
+              <p> Siempre realizamos una instalación que nos permita ocupar el menor espacio posible, así que si la estructura mantiene un espacio ajustado, ese no es problema para nosotros. </p>
+    				</div>
+            <div id="garantia" class="tab-pane fade">
+              <p> Te entregamos por escrito una póliza de garantía para cualquier desperfecto posterior a la instalación, así que aseguramos que tu inversión no se convertirá en una perdida. </p>
+    				</div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="slider-wrapper theme-default">
+    				<div id="slider" class="nivoSlider detailslider">
+    					<img src="img/automatizacion/img01.jpg" data-thumb="" alt=""/>
+    					<img src="img/automatizacion/img02.jpg" data-thumb="" alt=""/>
+    					<img src="img/automatizacion/img03.jpg" data-thumb="" alt=""/>
+    				</div>
+    			</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="container-fluid text-center fotp">
+      Puertas Automaticas May © 2016 <br>
+      Guadalajara, Jalisco, México
+    </div>
+    <div class="container-fluid fobm">
+      <div class="col-md-6 col-md-offset-6">
+        <a href="">Contáctenos </a> | <a href="">Privacidad</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.nivo.slider.pack.js"></script>
+<script src="js/function.js" charset="utf-8"></script>
+<script type="text/javascript">
+	$(window).load(function() {
+    $('#slider').nivoSlider();
+	  //$('#slider').nivoSlider({pauseTime: 4500});
+	});
+</script>
